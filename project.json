@@ -1,0 +1,12 @@
+{
+  "name": "ec2-r53",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "role": "",
+  "environment": {
+    "EC2R53_ZONE": "publiczoneid",
+    "EC2R53_ZONE_PTR": "10:privatezoneid",
+    "EC2R53_DOMAIN": "aws.example.net."
+  }
+}
